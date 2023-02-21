@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <test name="Regression1">
+        <groups>
+            <run>
+                <include name="regresion-tests"  />
+            </run>
+        </groups>
+    </test>
+
+<!--    TUM PROJEDEKI KLASORLERI ARA VE "regresion-tests" ISIMLI @Test CASELERI CALISIR-->
+    <packages>
+        <package name="techproed.*"></package>
+    </packages>
+</suite>

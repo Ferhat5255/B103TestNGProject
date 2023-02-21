@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Pozitive Login Tests" >
+        <classes>
+            <class name="techproed.tests.smoketests.Day22_PozitifLoginTest" />
+        </classes>
+    </test>
+    <test name="Negative Login Tests">
+        <classes>
+            <class name="techproed.tests.smoketests.Day22_NegatifLoginTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+<!-- BU xml DOSYASINI BELIRLI CLASS LARI RUN ETMEK ICIN KULLANIRIZ-->

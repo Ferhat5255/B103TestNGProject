@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ferhat/IdeaProjects/B103TestNGProject/src/test/java/techproed/tests/smoketests">
+        <classes>
+            <class name="techproed.tests.smoketests.Day22_NegatifLoginTest">
+                <methods>
+                    <include name="US100208_Negative_Login"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoketests.Day22_NegatifLoginTest_Hom01">
+                <methods>
+                    <include name="US100402_Negative_Login"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoketests.Day22_NegatifLoginTest_Hom02">
+                <methods>
+                    <include name="US101122_Negative_Login"/>
+                    <include name="US101122_Negative_Login2"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoketests.Day22_NegativeLoginTest_Hom03">
+                <methods>
+                    <include name="US101201_Negative_Login"/>
+                    <include name="US101201_Negative_Login2"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoketests.Day22_PozitifLoginTest">
+                <methods>
+                    <include name="US100201_Admin_Login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

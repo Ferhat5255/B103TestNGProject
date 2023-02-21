@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ferhat/IdeaProjects/B103TestNGProject/src/test/java/techproed/tests/Day19_TestNGAnnotations.java">
+        <classes>
+            <class name="techproed.tests.Day19_TestNGAnnotations">
+                <methods>
+                    <include name="test7"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+<!--include olan metot isimlerini calisririr digerlerini calistirmaz
+    exclude : exclude olan metotlarin disindakilerin hepsini calistirir
+    <exclude name="test7"/> test7 nin haricindeki tum metotlari calistirir-->
